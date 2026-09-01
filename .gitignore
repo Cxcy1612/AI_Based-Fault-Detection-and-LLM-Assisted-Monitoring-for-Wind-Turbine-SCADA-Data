@@ -1,0 +1,82 @@
+# ============================================================
+# Python environment and cache
+# ============================================================
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ============================================================
+# VSCode / IDE settings
+# ============================================================
+.vscode/
+.idea/
+
+# ============================================================
+# Operating system files
+# ============================================================
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# Raw SCADA datasets
+# Do not upload large raw datasets to GitHub.
+# Provide dataset source and folder instructions in README instead.
+# ============================================================
+data/raw/
+
+# ============================================================
+# Large intermediate machine-learning arrays and model files
+# ============================================================
+*.npy
+*.npz
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# ============================================================
+# Sensitive information
+# ============================================================
+.env
+*.env
+credentials.json
+secrets.json
+*ethics*waiver*
+*Ethics*Waiver*
+*approval*email*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+ 
+# Large generated outputs
+outputs/
+ 
+# Data
+data/
+*.csv
+*.parquet
+*.pkl
+*.joblib
+ 
+# Models
+*.pt
+*.pth
+*.h5
+*.keras
+ 
+# Jupyter
+.ipynb_checkpoints/
+ 
+# OS
+.DS_Store
+Thumbs.db

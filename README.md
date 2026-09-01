@@ -1,0 +1,1 @@
+This part is the code part for the 'AI_Based-Fault-Detection-and-LLM-Assisted-Monitoring-for-Wind-Turbine-SCADA-Data' project.
